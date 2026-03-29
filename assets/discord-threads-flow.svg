@@ -1,0 +1,185 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="174" y1="40" x2="1428" y2="932" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070D1B"/>
+      <stop offset="0.44" stop-color="#0F172D"/>
+      <stop offset="1" stop-color="#101A38"/>
+    </linearGradient>
+    <radialGradient id="haloA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(268 136) rotate(90) scale(190 280)">
+      <stop stop-color="#82F1FF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#82F1FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1288 146) rotate(90) scale(220 320)">
+      <stop stop-color="#5865F2" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#5865F2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloC" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1300 800) rotate(90) scale(210 300)">
+      <stop stop-color="#FF8B62" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FF8B62" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" stroke="white" stroke-opacity="0.04"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111930"/>
+      <stop offset="1" stop-color="#0B1222"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#82F1FF"/>
+      <stop offset="1" stop-color="#5865F2"/>
+    </linearGradient>
+    <linearGradient id="routerFill" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#82F1FF"/>
+      <stop offset="1" stop-color="#5865F2"/>
+    </linearGradient>
+    <filter id="blur" x="-120" y="-120" width="1840" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="0" y="0" width="1600" height="980" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="28"/>
+      <feGaussianBlur stdDeviation="32"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0156863 0 0 0 0 0.027451 0 0 0 0 0.0784314 0 0 0 0.42 0"/>
+      <feBlend in2="SourceGraphic" result="shape"/>
+    </filter>
+    <clipPath id="serverClip">
+      <rect x="1078" y="354" width="54" height="54" rx="18"/>
+    </clipPath>
+    <clipPath id="rootAvatarClip">
+      <circle cx="1312" cy="474" r="24"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <rect width="1600" height="980" fill="url(#grid)"/>
+  <g filter="url(#blur)">
+    <ellipse cx="268" cy="136" rx="190" ry="280" fill="url(#haloA)"/>
+    <ellipse cx="1288" cy="146" rx="220" ry="320" fill="url(#haloB)"/>
+    <ellipse cx="1300" cy="800" rx="210" ry="300" fill="url(#haloC)"/>
+  </g>
+
+  <rect x="52" y="52" width="286" height="44" rx="22" fill="#09111F" fill-opacity="0.62" stroke="white" stroke-opacity="0.1"/>
+  <circle cx="78" cy="74" r="6" fill="#82F1FF"/>
+  <text x="96" y="79" fill="#EDF2FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6">DISCORD-STYLE WORKFLOW VISUAL</text>
+
+  <text x="52" y="166" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-2.4">
+    <tspan x="52" dy="0">Every issue and PR gets</tspan>
+    <tspan x="52" dy="58">its own thread</tspan>
+  </text>
+  <text x="52" y="276" fill="#D9E0FF" fill-opacity="0.74" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="23" font-weight="500">
+    <tspan x="52" dy="0">The channel becomes an index of work items, while comments, reviews,</tspan>
+    <tspan x="52" dy="34">state changes and retries stay attached to the same focused discussion</tspan>
+  </text>
+
+  <g>
+    <rect x="1050" y="112" width="232" height="44" rx="16" fill="#0F1628" fill-opacity="0.7" stroke="white" stroke-opacity="0.08"/>
+    <rect x="1296" y="112" width="194" height="44" rx="16" fill="#0F1628" fill-opacity="0.7" stroke="white" stroke-opacity="0.08"/>
+    <rect x="1178" y="168" width="222" height="44" rx="16" fill="#0F1628" fill-opacity="0.7" stroke="white" stroke-opacity="0.08"/>
+    <text x="1078" y="139" fill="#F0F4FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">opened - create root message</text>
+    <text x="1324" y="139" fill="#F0F4FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">reviews stay in thread</text>
+    <text x="1206" y="195" fill="#F0F4FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">retry-safe via delivery dedupe</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="52" y="334" width="544" height="566" rx="30" fill="url(#panel)" stroke="white" stroke-opacity="0.08"/>
+    <rect x="636" y="334" width="232" height="566" rx="30" fill="#0F1628" fill-opacity="0.86" stroke="white" stroke-opacity="0.08"/>
+    <rect x="908" y="334" width="640" height="566" rx="30" fill="url(#panel)" stroke="white" stroke-opacity="0.08"/>
+  </g>
+
+  <line x1="52" y1="400.5" x2="596" y2="400.5" stroke="white" stroke-opacity="0.06"/>
+  <rect x="82" y="362" width="40" height="40" rx="14" fill="#49D38B" fill-opacity="0.14"/>
+  <text x="93" y="389" fill="#49D38B" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="800">GH</text>
+  <text x="138" y="381" fill="#F7F9FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="800">GitHub events</text>
+  <text x="138" y="402" fill="#D9E0FF" fill-opacity="0.68" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="0.8">ISSUES, COMMENTS, REVIEWS, LIFECYCLE</text>
+
+  <g>
+    <rect x="82" y="430" width="484" height="92" rx="22" fill="#18223E" fill-opacity="0.78" stroke="white" stroke-opacity="0.06"/>
+    <rect x="82" y="542" width="484" height="92" rx="22" fill="#18223E" fill-opacity="0.78" stroke="white" stroke-opacity="0.06"/>
+    <rect x="82" y="654" width="484" height="92" rx="22" fill="#18223E" fill-opacity="0.78" stroke="white" stroke-opacity="0.06"/>
+    <rect x="82" y="766" width="484" height="92" rx="22" fill="#18223E" fill-opacity="0.78" stroke="white" stroke-opacity="0.06"/>
+
+    <rect x="106" y="452" width="122" height="26" rx="13" fill="#49D38B" fill-opacity="0.12"/>
+    <circle cx="120" cy="465" r="4" fill="#49D38B"/>
+    <text x="132" y="470" fill="#49D38B" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1">ISSUE OPENED</text>
+    <text x="506" y="470" fill="#B8BFE4" fill-opacity="0.54" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">#193</text>
+    <text x="106" y="501" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Bootstrap runtime and webhook intake</text>
+
+    <rect x="106" y="564" width="166" height="26" rx="13" fill="#5865F2" fill-opacity="0.14"/>
+    <circle cx="120" cy="577" r="4" fill="#5865F2"/>
+    <text x="132" y="582" fill="#8EA0FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1">PULL REQUEST OPENED</text>
+    <text x="506" y="582" fill="#B8BFE4" fill-opacity="0.54" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">#194</text>
+    <text x="106" y="613" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Sync GitHub issues and PRs into threads</text>
+
+    <rect x="106" y="676" width="150" height="26" rx="13" fill="#FF8B62" fill-opacity="0.14"/>
+    <circle cx="120" cy="689" r="4" fill="#FF8B62"/>
+    <text x="132" y="694" fill="#FF8B62" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1">REVIEW SUBMITTED</text>
+    <text x="440" y="694" fill="#B8BFE4" fill-opacity="0.54" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">changes requested</text>
+    <text x="106" y="725" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Review activity stays in context</text>
+
+    <rect x="106" y="788" width="138" height="26" rx="13" fill="#82F1FF" fill-opacity="0.12"/>
+    <circle cx="120" cy="801" r="4" fill="#82F1FF"/>
+    <text x="132" y="806" fill="#82F1FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1">RETRY DEDUPED</text>
+    <text x="410" y="806" fill="#B8BFE4" fill-opacity="0.54" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">X-GitHub-Delivery</text>
+    <text x="106" y="837" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Webhook retries do not duplicate posts</text>
+  </g>
+
+  <path d="M658 482C724 482 730 482 762 532C788 572 792 648 846 648" stroke="url(#trace)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M658 664C720 664 728 664 764 708C796 748 804 792 846 792" stroke="url(#trace)" stroke-width="10" stroke-linecap="round" opacity="0.84"/>
+  <circle cx="658" cy="482" r="16" fill="#82F1FF"/>
+  <circle cx="658" cy="664" r="16" fill="#82F1FF" fill-opacity="0.88"/>
+  <circle cx="846" cy="648" r="16" fill="#5865F2"/>
+  <circle cx="846" cy="792" r="16" fill="#5865F2" fill-opacity="0.9"/>
+
+  <rect x="690" y="556" width="124" height="154" rx="28" fill="#101B35" stroke="#8EA0FF" stroke-opacity="0.18"/>
+  <rect x="715" y="580" width="74" height="74" rx="24" fill="url(#routerFill)"/>
+  <text x="735" y="626" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="800">OT</text>
+  <text x="705" y="682" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Octothread</text>
+
+  <rect x="908" y="334" width="640" height="566" rx="30" fill="none" stroke="white" stroke-opacity="0.08"/>
+  <rect x="908" y="334" width="88" height="566" rx="30" fill="#090D19" fill-opacity="0.96"/>
+  <rect x="996" y="334" width="232" height="566" fill="#12182A" fill-opacity="0.95"/>
+  <rect x="1228" y="334" width="320" height="566" rx="0 30 30 0" fill="#111626" fill-opacity="0.98"/>
+  <line x1="996" y1="400.5" x2="1548" y2="400.5" stroke="white" stroke-opacity="0.05"/>
+  <line x1="1228" y1="334.5" x2="1228" y2="900.5" stroke="white" stroke-opacity="0.05"/>
+
+  <g clip-path="url(#serverClip)">
+    <image href="atls-avatar.png" x="1078" y="354" width="54" height="54" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <rect x="1078" y="354" width="54" height="54" rx="18" stroke="white" stroke-opacity="0.08"/>
+  <rect x="1078" y="422" width="54" height="54" rx="18" fill="#5865F2"/>
+  <image href="discord-symbol.svg" x="1089" y="438" width="32" height="24" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="1078" y="490" width="54" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="1099" y="524" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="700">#</text>
+  <rect x="1078" y="558" width="54" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="1094" y="592" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">+</text>
+
+  <text x="1024" y="381" fill="#F7F9FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">monorepo</text>
+  <rect x="1014" y="420" width="196" height="40" rx="14" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="1034" y="445" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700"># monorepo</text>
+  <text x="1034" y="489" fill="#D0D7F4" fill-opacity="0.84" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700"># engineering-management</text>
+  <text x="1034" y="533" fill="#D0D7F4" fill-opacity="0.84" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700"># releases</text>
+  <text x="1034" y="577" fill="#D0D7F4" fill-opacity="0.84" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Threads</text>
+  <rect x="1014" y="602" width="196" height="48" rx="14" fill="#5865F2" fill-opacity="0.14"/>
+  <text x="1034" y="631" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">#194 sync GitHub issues...</text>
+
+  <text x="1254" y="381" fill="#F7F9FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700"># monorepo</text>
+  <text x="1370" y="381" fill="#D9E0FF" fill-opacity="0.68" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">issue + PR index</text>
+
+  <rect x="1254" y="428" width="258" height="96" rx="22" fill="#18223E" fill-opacity="0.76" stroke="white" stroke-opacity="0.06"/>
+  <g clip-path="url(#rootAvatarClip)">
+    <image href="atls-avatar.png" x="1288" y="450" width="48" height="48" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <circle cx="1312" cy="474" r="24" stroke="white" stroke-opacity="0.06"/>
+  <text x="1350" y="470" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Octothread</text>
+  <text x="1350" y="492" fill="#D9E0FF" fill-opacity="0.72" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">PR #194 opened - thread created</text>
+
+  <text x="1254" y="574" fill="#F7F9FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">#194 thread</text>
+  <rect x="1254" y="598" width="254" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.05" stroke="white" stroke-opacity="0.06"/>
+  <rect x="1254" y="688" width="254" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.05" stroke="white" stroke-opacity="0.06"/>
+  <rect x="1254" y="778" width="254" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.05" stroke="white" stroke-opacity="0.06"/>
+  <text x="1274" y="626" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">pull_request_review</text>
+  <text x="1274" y="648" fill="#D9E0FF" fill-opacity="0.72" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">Changes requested from a reviewer</text>
+  <text x="1274" y="716" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">issue_comment</text>
+  <text x="1274" y="738" fill="#D9E0FF" fill-opacity="0.72" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">Comment routed into the same thread</text>
+  <text x="1274" y="806" fill="#F4F6FF" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">delivery dedupe</text>
+  <text x="1274" y="828" fill="#D9E0FF" fill-opacity="0.72" font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">Retries ignored after the first post</text>
+</svg>

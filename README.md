@@ -1,3 +1,5 @@
+![Octothread Banner](./assets/banner.png)
+
 # Octothread
 
 Turn noisy GitHub activity into focused Discord discussions.
@@ -30,15 +32,7 @@ Octothread turns a Discord channel into an index and each issue or pull request 
 
 ## How It Works
 
-```mermaid
-flowchart LR
-    G["GitHub Webhooks"] --> W["Webhook Intake"]
-    W --> N["Event Normalizer"]
-    N --> S["Mapping + Delivery Store"]
-    S --> D["Discord Bot API"]
-    D --> C["Channel Root Message"]
-    D --> T["Dedicated Discord Thread"]
-```
+![Octothread Discord-style workflow](./assets/discord-threads-flow.png)
 
 High-level flow:
 
